@@ -1,45 +1,116 @@
-13 1 2
-12
-1 1 1 1 "" ""
-4
+FS3
+32 1 24 3 0
+3
+"alice" 2 2
+"arunit" 1 1
+"root" 0 0
+29
+1 1 1 1 0 0 493 "" ""
+7
 "." 1
 ".." 1
-"LinkTest" 2
-"absolute_test" 5
-2 1 1 1 "" ""
-10
-"." 2
+"access_test.txt" 3
+"access_write.txt" 4
+"chown_test.txt" 2
+"protected_dir" 6
+"restricted" 5
+2 0 1 1 1 1 420 "" ""
+0
+3 0 1 1 0 0 0 "Hello" ""
+0
+4 0 1 1 0 0 438 "Modified" ""
+0
+5 1 1 1 0 0 384 "" ""
+2
+"." 5
 ".." 1
-"LinkCheck" 10
-"Projects" 3
-"loop1" 7
-"loop2" 8
-"relative_test" 6
-"sample.txt" 11
-"selflink" 9
-"shortcut" 12
-3 1 1 2 "" ""
-3
-"." 3
-".." 2
-"notes.txt" 4
-4 0 1 3 "Hello World" ""
-0
-5 2 1 1 "" "/LinkTest/Projects/notes.txt"
-0
-6 2 1 2 "" "Projects/notes.txt"
-0
-7 2 1 2 "" "loop2"
-0
-8 2 1 2 "" "loop1"
-0
-9 2 1 2 "" "selflink"
-0
-10 1 1 2 "" ""
+6 1 1 1 0 0 493 "" ""
+4
+"." 6
+".." 1
+"delete_test" 8
+"protected" 7
+7 1 1 6 0 0 365 "" ""
+2
+"." 7
+".." 6
+8 1 1 6 0 0 365 "" ""
+16
+"." 8
+".." 6
+"Projects" 24
+"block_copy.txt" 17
+"block_test.txt" 16
+"demo.txt" 14
+"descriptor_test.txt" 12
+"destination_dir" 10
+"empty_test.txt" 18
+"fdtest.txt" 15
+"large_test.txt" 20
+"ownership_test.txt" 11
+"projects" 22
+"small_test.txt" 19
+"source_dir" 9
+"test.txt" 23
+9 1 1 8 0 0 365 "" ""
+2
+"." 9
+".." 8
+10 1 1 8 0 0 493 "" ""
 2
 "." 10
-".." 2
-11 0 1 2 "Working" ""
+".." 8
+11 0 1 8 1 1 416 "" ""
 0
-12 2 1 2 "" "sample.txt"
+12 0 1 8 0 0 420 "" ""
+0
+14 0 1 8 0 0 420 "HelloWorld" ""
+0
+15 0 1 8 0 0 420 "HelloWorld" ""
+0
+16 0 1 8 0 0 420 "HelloDiskBlocks" ""
+0
+17 0 1 8 0 0 420 "HelloDiskBlocks" ""
+0
+18 0 1 8 0 0 420 "" ""
+0
+19 0 1 8 0 0 420 "Hello World" ""
+0
+20 0 1 8 0 0 420 "Persistence_Test" ""
+0
+22 1 1 8 0 0 493 "" ""
+2
+"." 22
+".." 8
+23 0 1 8 0 0 420 "" ""
+0
+24 1 1 8 0 0 493 "" ""
+10
+"." 24
+".." 8
+"Cpp" 25
+"Python" 26
+"README.txt" 27
+"backup.txt" 28
+"report.txt" 28
+"secure.txt" 31
+"shortcut" 29
+"storage.txt" 30
+25 1 1 24 0 0 493 "" ""
+2
+"." 25
+".." 24
+26 1 1 24 0 0 493 "" ""
+2
+"." 26
+".." 24
+27 0 1 24 0 0 420 "File System Simulator Project" ""
+0
+28 0 2 24 0 0 420 "Operating System Project" ""
+0
+29 2 1 24 0 0 420 "" "report.txt"
+0
+30 0 1 24 0 0 420 "[Insert a long string exceeding 512 characters]" ""
+0
+31 0 1 24 0 0 384 "Confidential Data" ""
 0
